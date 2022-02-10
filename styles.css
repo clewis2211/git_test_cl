@@ -1,0 +1,110 @@
+/* div{
+    background-color: red;
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+}
+
+p{
+    background-color: green;
+    color: white;
+    font-size: 18px;
+}
+
+button{
+    background-color: orange;
+    font-size: 18px;
+} */
+
+/* .number1,
+.number3,
+.number5{
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+    background-color: rgb(170, 89, 89);
+}
+
+#number2{
+    color: rgb(89, 108, 170);
+    font-size: 36px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.class{
+    font-size: 50px;
+}
+
+#number4{
+    background-color: green;
+    font-size: 80px;
+    font-weight: bolder;
+} */
+
+/* button{
+    font-size: 28px;
+    font-family: "Helvetica","Times New Roman", sans-serif;
+}
+.click{
+    background-color: black;
+    color: white;
+}
+
+.noClick{
+    background-color: yellow;
+} */
+
+/* .avatar.proportioned{
+    width: 300px;
+    height: auto;
+}
+
+.avatar.distorted{
+    width: 200px;
+    height: 400px;
+} */
+
+
+/* .container .text{
+    background-color: yellow;
+    columns: red;
+    font-size: 100px;
+    text-align: center;
+} */
+
+
+
+.para,
+.small-para {
+  color: hsl(0, 100%, 50%);
+  font-size: 22px;
+}
+
+/* .small-para {
+  
+} */
+.small-para {
+  font-size: 14px;
+}
+
+.button {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+}
+
+#confirm-button {
+  background: green;
+  color: white;
+  font-weight: bold;
+} 
+
+.child {
+  color: red;
+  font-size: 14px;
+}
+
+div{
+  color: green;
+  font-size: 22px;
+} 
+
