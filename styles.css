@@ -154,7 +154,7 @@ img{
 } */
 
 
-body{
+/* body{
     background-color: gray;
     margin: 0;
     font-family: Basley, serif;
@@ -162,17 +162,21 @@ body{
 .container{
     display: flex;
     justify-content: center;
-    align-items: baseline;
+    align-items: center;
     margin: 400px;
     border-radius: 15px;
     background-color: white;
-    height: 200px;
+    height: 150px;
     width: 500px;
     padding: 1em;
     
 }
 
-.icon h1{
+.icon{
+    justify-content: flex-start;
+} */
+
+/* .icon h1{
     background-color: rgb(212, 212, 212);
     height: 50px;
     width: 50px;
@@ -180,9 +184,9 @@ body{
     border-radius: 5em;
     color: rgb(0, 140, 255);
     flex: 1;
-}
+} */
 
-.close-button {
+/* .close-button {
     justify-content: flex-start;
     flex: 1;
 }
@@ -197,5 +201,107 @@ body{
     flex: 1;
 }
 
+ button{
+    background-color: rgba(0, 47, 255, 0.986);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+} */
 
 
+
+
+/* FLEX LAYOUT Page */
+
+
+body{
+    margin: 0;
+    height: 100vh;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+a{
+    text-decoration: none;
+    padding: 10px;
+    color: gray;
+}
+
+ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    box-sizing: border-box;
+    padding: 8px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
+}  
+
+.left-nav, .push{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 60em;
+}
+
+.left-nav ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 50px;
+    list-style-type: none;
+}
+
+.push{
+    margin-left: auto;
+}
+.push ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 50px;
+    list-style-type: none;
+}
+
+.odin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+.odin img{
+    height: 15em;
+    margin: 0;
+    padding: 0;
+}
+
+
+.odin #input{
+    display: flex;
+    height: 25px;
+    width: 30em;
+    border-radius: 1em;
+    border: gray solid 1px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin-top: 20px;
+    gap: 8px;
+}
+
+.buttons button{
+    border: none;
+    border-radius: 1em;
+    padding: 1em;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
